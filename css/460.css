@@ -1,0 +1,381 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face{
+	font-family:DancingScript-Bold;
+	src: url(../Fonts/Dancing_Script/DancingScript-Bold.ttf);
+}
+@font-face{
+	font-family:Vollkorn-BoldItalic;
+	src:url(../Fonts/Vollkorn/Vollkorn-BoldItalic.ttf);
+}
+@font-face{
+	font-family: Vollkorn-Regular;
+	src:url(../Fonts/Vollkorn/Vollkorn-Regular.ttf);
+}
+@media screen and (min-width : 0px )and (max-width: 460px){
+	body {
+        width: 100%;
+		margin:0px;
+/*		background-color:#faeec7;*/
+		background:-moz-linear-gradient(45deg,#faefca,#fae28f);
+		background:-webkit-linear-gradient(45deg,#faefca,#fae28f);
+    }
+	.tp .bkrm{
+		width:100%;
+		height:80px;
+	}
+	.tp .bkrm p{
+		font-family: "Vollkorn-Regular";
+		font-size: 10px;
+		line-height: 80px;
+		text-align: center;
+	}
+	.tp{
+		width:100%;
+		height:2386px;
+/*		background-color:#faeec7;*/
+		padding:0px;
+		margin: 0px;
+	}
+	.tp1{
+		width:96%;
+		height: 2386px;
+		margin:0 auto;
+	}
+	.tp1 .left{
+	height: 96px;
+	width: 100%;
+	background-color: #ffd703;
+	float: left;
+	}
+	h1 {
+		font-family: "DancingScript-Bold";
+	}
+	p{
+		font-family:"Vollkorn-Regular";
+	}
+	.tp1 .left h1{
+		font-size:20px;
+		padding-left:10px;
+	}
+	.tp1 .left p{
+		float:left;
+		padding-left: 10px;
+		padding-right:30px;
+		font-size:8px;
+		color:#CCCCCC;
+	
+	}
+	.tp1 .right{
+		background-color: white;
+	}
+	.tp1 .right2{
+		top:0px;
+		left:0px;
+		float:left;
+		height:1620px;
+		width:100%;
+		background-color: white; 
+	}
+	.tp1 .right2 .part h3{
+		font-family:"DancingScript-Bold";
+		margin-left:10px;
+	}
+	.tp1 .right2 p{
+		font-size:10px;
+		margin-left:10px;
+		margin-right:10px;
+	}
+	.tp  .right2 .igg1 .ig1{
+		height:298px;
+		width:30%;
+		overflow: hidden;
+		float: left;
+		position: relative;
+		margin-left:10px;
+	}
+	.tp1 .right2 .igg1 .ig1 img{
+		height:100%;
+		left:-130%;
+		position: absolute;
+		filter:grayscale(100%);
+	}
+	.tp1 .right2 .igg1 .ig1 h1{
+		font-family: "Vollkorn-BoldItalic";
+		position: absolute;
+		font-size:16px;
+		color:white;
+		bottom:18px;
+		margin:15px;
+		margin-left: 18px;
+	}
+	.tp  .right2 .igg1 .ig2{
+		height:298px;
+		width:30%;
+		overflow: hidden;
+		float: left;
+		position: relative;
+		margin-left:10px;
+	}
+	.tp1 .right2 .igg1 .ig2 img{
+		height:100%;
+		left:-130%;
+		position: absolute;
+		filter:grayscale(100%);
+	}
+	.tp1 .right2 .igg1 .ig2 h1{
+		font-family: "Vollkorn-BoldItalic";
+		position: absolute;
+		font-size:16px;
+		color:white;
+		bottom:18px;
+		margin:13px;
+		margin-left:28px;
+	}
+	.tp  .right2 .igg1 .ig3{
+		height:298px;
+		width:30%;
+		overflow: hidden;
+		float: left;
+		position: relative;
+		margin-left:10px;
+	}
+	.tp1 .right2 .igg1 .ig3 img{
+		height:100%;
+		left:-130%;
+		position: absolute;
+		filter:grayscale(100%);
+	}
+	.tp1 .right2 .igg1 .ig3 h1{
+		font-family: "Vollkorn-BoldItalic";
+		position: absolute;
+		font-size:16px;
+		color:white;
+		bottom:18px;
+		margin:13px;
+		margin-left:18px;
+	}
+	.part2 h3{
+		font-family: "DancingScript-Bold";
+		margin-left:10px;
+	}
+	.part2 .igg2{
+		width:100%;
+		height:206px;
+		margin-left:10px;
+	}
+	.part2 .igg2 .ig4{
+		width:19%;
+		height:100%;
+		position: relative;
+		float:left;
+		overflow: hidden;
+		left:0px;
+	}
+	.part2 .igg2 .ig4 img{
+		height: 100%;
+		left:-100%;
+		position: absolute;
+	}
+	.part2 .igg2 .ig5{
+		width:19%;
+		height:100%;
+		position: relative;
+		float:left;
+		overflow: hidden;
+	}
+	.part2 .igg2 .ig5 img{
+		height:100%;
+		left:-100%;
+		position: absolute;
+	}
+	.part2 .igg2 .ig6{
+		width:19%;
+		height:100%;
+		position: relative;
+		float:left;
+		overflow: hidden;
+		left:0px;
+	}
+	.part2 .igg2 .ig4 img{
+		height: 100%;
+		left:-100%;
+		position: absolute;
+	}
+	.part2 .igg2 .ig5{
+		width:19%;
+		height:100%;
+		position: relative;
+		float:left;
+		overflow: hidden;
+	}
+	.part2 .igg2 .ig5 img{
+		height:100%;
+		left:-100%;
+		position: absolute;
+	}
+	.part2 .igg2 .ig6{
+		width:19%;
+		height:100%;
+		position: relative;
+		float:left;
+		overflow: hidden;
+	}
+	.part2 .igg2 .ig6 img{
+		height:100%;
+		left:-100%;
+		position: absolute;
+	}
+	.part2 .igg2 .ig7{
+		width:19%;
+		height:100%;
+		position: relative;
+		float:left;
+		overflow: hidden;
+	}
+	.part2 .igg2 .ig7 img{
+		height:100%;
+		left:-100%;
+		position: absolute;
+	}
+	.part2 .igg2 .ig8{
+		width:19%;
+		height:100%;
+		position: relative;
+		float:left;
+		overflow: hidden;
+	}
+	.part2 .igg2 .ig8 img{
+		height:100%;
+		left:-100%;
+		position: absolute;
+	}
+	.part2 .btmg1{
+		width:90%;
+		height: 200px;
+		overflow: hidden;
+		margin-left:10px;
+	}
+	.part3 .part3_right{
+		float:left;
+		padding-left:10px;
+		top:0;
+		padding-bottom:10px;
+	}
+	.part3 .part3_right .ig10{
+		width:48%;
+		height: 125px;
+		float: left;
+		padding-right:2%;
+	}
+	.part3 .part3_right .ig10 img{
+		width:100%;
+		height:100%;
+	}
+	.part3 .part3_right .ig11{
+		width:48%;
+		height: 125px;
+		float:left;
+	}
+	.part3 .part3-left{
+		position: relative;
+		margin-top:130px;
+	}
+	.part3 .part3_right .ig11 img{
+		width:100%;
+		height:100%;
+	}
+	.part3 .part3_left h3{
+		font-family: "DancingScript-Bold";
+		margin-left:10px;
+	}
+	.part3 .part3_left .tt{
+		width:100%;
+		margin-left: 10px;
+		height:120px;
+		margin: 0px;
+		padding:0px;
+	}
+	.part3 .part3_left .tt .yow{
+		height:120px;
+		width:6px;
+		float: left;
+		margin-left:10px; 
+		background-color:#ffd703;
+	}
+	.part3 .part3_left .tt p{
+		float: left;
+		font-size:20px;
+		font-family:"Vollkorn-Regular";
+	}
+	.right1{
+		background-color: white;
+		padding-bottom: 10px;
+	}
+	.right .right1 h3{
+		font-family: "DancingScript-Bold";
+		margin-left:10px;
+	}
+	.right .right1 #hd{
+		padding-top:10px;
+	}
+	.right .right1 p{
+		font-size:0px;
+		margin: 0px;
+		padding: 0px;
+	}
+	.right .listbox{
+		width:90%;
+		padding-left:10px;
+		padding-right:10px;
+		border:1px solid #cccccc;
+		margin-left:10px;
+	}
+	.right .listbox h4{
+		font-family: "DancingScript-Bold";
+	}
+	.right .listbox p{
+		font-size:10px;
+		padding-bottom:8px;
+	}
+	.right1 .mp{
+		width:90%;
+		height:245px;
+		position: relative;
+		padding-left:10px;
+	}
+	.right1 .mp img{
+		width:100%;
+		position: absolute;
+	} 
+	.part2 .btmg1 img{
+		width:100%;
+	}
+	.btm{
+		width:100%;
+		height: 408px;;
+		padding:0px;
+		margin:0px;
+		top:0px;
+		background-color: white;
+	}
+	.bt1,.bt2,.bt3,.bt4{
+		width:50%;
+		height:148px;
+		float:left;
+	}
+	.btm h5{
+		font-family:"DancingScript-Bold";
+		padding-left:5%;
+	}
+	.btm p{
+		font-family:"Vollkorn-Regular";
+		font-size: 8px;
+		padding-left:5%;
+	}
+	.btm .bt4 div{
+		padding:0px;
+		margin: 0px;
+		padding-left:5%;
+	}
+}

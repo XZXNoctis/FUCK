@@ -1,0 +1,373 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face{
+	font-family:DancingScript-Bold;
+	src: url(../Fonts/Dancing_Script/DancingScript-Bold.ttf);
+}
+@font-face{
+	font-family:Vollkorn-BoldItalic;
+	src:url(../Fonts/Vollkorn/Vollkorn-BoldItalic.ttf);
+}
+@font-face{
+	font-family: Vollkorn-Regular;
+	src:url(../Fonts/Vollkorn/Vollkorn-Regular.ttf);
+}
+.right2 .part3 .part3_left {
+	width: 49%;
+}
+
+@media screen and (min-width :460px )and (max-width : 950px ){
+	body {
+        width: 100%;
+		margin:0px;
+		background:-moz-linear-gradient(45deg,#faefca,#fae28f);
+		background:-webkit-linear-gradient(45deg,#faefca,#fae28f);
+    }
+	.tp .bkrm{
+		width: 300px;
+		height:26px;
+		background-color: #cccccc;
+		font-family: "微雅软黑";
+		position: fixed;
+		left:592px;
+		top:0px;
+		float:left;
+		z-index:100;
+	}
+	.tp .bkrm p{
+		text-align: center;
+		line-height: 26px;
+		padding:0px;
+		margin: 0px;
+	}
+	.tp{
+		width: 100%;
+		height:1742px;
+/*		background-color:#faeec7;*/
+		padding-left:46px;
+		padding-top:46px;
+		box-shadow:0px 2px #000;	
+		
+	}
+	h1 {
+		font-family: "DancingScript-Bold";
+	}
+	tp1{
+		width:95%;
+		height:1742px;
+	}
+	.left{
+		background-color: #ffd703;
+		float: left;
+		width:15%;
+		height:1742px;
+	}
+	.left h1{
+		padding-top:24px;
+		padding-left:10px;
+		padding-bottom:10px;
+	}
+	.left p{
+		font-family:"微雅软黑";
+		font-size: 12px;
+		color: #999999;
+		padding-top:20px;
+		padding-left:10px;
+	}
+	.right{
+		width:75%;
+		height:1742px;
+		background-color: white;
+		float: left;
+	}
+	.right1{
+		padding-left:10px;
+		padding-right:2px;
+		height:1742px;
+		width:24%;
+		float:right;
+	}
+	.right1 .h3{
+		font-family: "DancingScript-Bold";
+		padding-top:3.3%;
+		font-weight: bold; 
+	}
+	.right1 p{
+		font-family:"微雅软黑";
+		font-size: 12px;
+		color: #999999;
+		padding-top:20px;
+		padding-left:10px;
+	}
+	.right1 .listbox{
+	border: 1px solid #999999;
+	width: 90%;
+	height: 140px;
+	margin-left: 6px;
+	display: block;
+	text-align: center;
+	position:relative
+	}
+	.right1 .listbox h4{
+		font-family: "DancingScript-Bold";
+		margin: 0;
+		padding: 0;
+		text-align: left;
+		padding-top:15px;
+		padding-left:4px;
+	}
+	.right1 .listbox p{
+		padding-top:14px;
+		font-size:12px;
+		text-align: left;
+		padding-left:4px;
+	}
+	.right1 .mp img{
+		width:80%;
+		height:98px;
+	}
+	.right1 h3{
+		font-family: "DancingScript-Bold";
+	}
+	.right2{
+		float:right;
+		width:72%;
+		height:1742px;
+		padding-left:12px;
+	}
+	.right2 h3{
+		font-family: "DancingScript-Bold";
+		font-weight: bold; 
+	}
+	.right2 p{
+		width: 96%;
+		font-family: arial;
+		font-size:12px;
+	}
+	.igg1{
+		width:100%;
+		height:300px;
+	}
+	.igg1 .ig1 img{
+		width:100%;
+		height: 100%;
+		position: absolute;
+		filter:grayscale(100%);
+	}
+	.igg1 .ig1{
+		width:31%;
+		height:100%;
+		overflow: hidden;
+		position: relative;
+		float:left;
+		margin-right: 10px;
+		clear:both;
+	}
+	.igg1 .ig1 h1{
+		font-family:"Vollkorn-BoldItalic";
+		font-weight: bold;
+		font-size:20px;
+		position: absolute;
+		padding-left:18%;
+		bottom:0px;
+		color: white;
+	}
+	.igg1 .ig2 img{
+		width:100%;
+		height: 100%;
+		position: absolute;
+		filter:grayscale(100%);
+	}
+	.igg1 .ig2{
+		width:31%;
+		height:100%;
+		overflow: hidden;
+		position: relative;
+		margin-right: 10px;
+		float:left;
+	}
+	.igg1 .ig2 h1{
+		font-family:"Vollkorn-BoldItalic";
+		font-weight: bold;
+		font-size:20px;
+		position: absolute;
+		padding-left:18%;
+		bottom:0px;
+		color: white;
+	}
+	.igg1 .ig3 img{
+		width:100%;
+		height: 100%;
+		position: absolute;
+		filter:grayscale(100%);
+	}
+	.igg1 .ig3{
+		width:31%;
+		height:100%;
+		overflow: hidden;
+		position: relative;
+		float:left;
+	}
+	.igg1 .ig3 h1{
+		font-family:"Vollkorn-BoldItalic";
+		font-weight: bold;
+		font-size:20px;
+		position: absolute;
+		padding-left:18%;
+		bottom:0px;
+		color: white;
+	}
+	.part2{
+	width: 100%;
+	height: 700px;
+	}
+	.igg2{
+		height: 350px;
+		width: 100%;
+		overflow: hidden;
+	}
+	.igg2 .ig4 {
+		width:10%;
+		height:350px;
+		position: absolute;
+		overflow: hidden;
+	}
+	.igg2 .ig4 img{
+		height:100%;
+		position: relative;
+		left:-210%;
+	}
+	.igg2 .ig5 {
+		width:10%;
+		height:350px;
+		position: absolute;
+		overflow: hidden;
+		margin-left:10%;
+	}
+	.igg2 .ig5 img{
+		height:100%;
+		position: relative;
+		left:-280%;
+	}
+	.igg2 .ig6 {
+		width:10%;
+		height:350px;
+		position: absolute;
+		overflow: hidden;
+		margin-left: 20%;
+		
+	}
+	.igg2 .ig6 img{
+		height:100%;
+		position: relative;
+		left:-250%;
+	}
+	.igg2 .ig7 {
+		width:10%;
+		height:350px;
+		position: absolute;
+		overflow: hidden;
+		margin-left: 30%;
+	}
+	.igg2 .ig7 img{
+		height:100%;
+		position: relative;
+		left:-230%;
+	}
+	.igg2 .ig8 {
+	
+		width:10%;
+		height:350px;
+		position: absolute;
+		overflow: hidden;
+		margin-left: 40%;
+	}
+	.igg2 .ig8 img{
+		height:100%;
+		position: relative;
+		left:-250%;
+	}
+	.part2 .btmg1{
+		width:95%;
+		height:200px;
+		overflow: hidden;
+	}
+	.part2 .btmg1 img{
+		width:100%;
+		bottom:30%;
+	}
+	.btm{
+		float:left;
+	}
+	.part3_left{
+		width:45%;
+		float:left;
+	}
+	.part3 .tt{
+		width:100%;
+		height:236px;
+	}
+	.part3 .tt .yow{
+		background-color:#ffd703;
+		width: 2%;
+		height: 100%;
+		float: left;
+	}
+	.part3 .tt p{
+		float:left;
+		font-size:28px;
+		margin-left:2px;
+	}
+	
+	.ltpg{
+		width:46%;
+		font-size: 6px;
+	}
+	.part3_right{
+		width:48%;
+		float: right;
+		padding-top:10px;
+		padding-right:14px;
+	}
+	.part3 .ig10{
+		width:100%;
+		height:194px;
+		padding-bottom: 6px;
+		overflow: hidden;
+	}
+	.part3 .ig10 img{
+		width:100%;
+	}
+	.part3 .ig11{
+		width:100%;
+		height:194px;
+		overflow: hidden;
+	}
+	.part3 .ig11 img{
+		width:100%;
+	}
+	.btm{
+		width:100%;
+		height:298px;
+		background-color: white;
+		float: left;
+	}
+	.btm h5{
+		font-family: "DancingScript-Bold";
+	}
+	.bt1,.bt2,.bt3,.bt4{
+		height:180px;
+		width:25%;
+		float:left;
+	}
+	.btm p{
+		font-family: arial;
+		font-size:8px;
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+	.btm .bt4 div{
+		padding:0px;
+		margin:0px;
+	}
+}
