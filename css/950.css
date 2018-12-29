@@ -152,7 +152,10 @@
 		width:100%;
 		height: 100%;
 		position: absolute;
-		filter:grayscale(100%);
+		filter:grayscale(90%);
+	}
+	.igg1 .ig1 img:hover{
+		filter:brightness(120%);
 	}
 	.igg1 .ig1{
 		width:31%;
@@ -176,7 +179,10 @@
 		width:100%;
 		height: 100%;
 		position: absolute;
-		filter:grayscale(100%);
+		filter:grayscale(90%);
+	}
+	.igg1 .ig2 img:hover{
+		filter:brightness(120%);
 	}
 	.igg1 .ig2{
 		width:31%;
@@ -199,7 +205,10 @@
 		width:100%;
 		height: 100%;
 		position: absolute;
-		filter:grayscale(100%);
+		filter:grayscale(90%);
+	}
+	.igg1 .ig3 img:hover{
+		filter:brightness(120%);
 	}
 	.igg1 .ig3{
 		width:31%;
@@ -369,5 +378,13 @@
 	.btm .bt4 div{
 		padding:0px;
 		margin:0px;
+	}
+	.ttd,.ttd h1,.ttd div,.ttd img{
+		margin: 0px;
+		padding: 0px;
+		width:0px;
+		height:0px;
+		font-size: 0px;
+		overflow: hidden;
 	}
 }
